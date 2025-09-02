@@ -1,3 +1,4 @@
+import 'package:finance_app/view/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class BottomBar extends StatefulWidget {
@@ -11,7 +12,7 @@ class _BottomBarState extends State<BottomBar> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = [
-    Center(child: Text("Home Screen")),
+    HomeScreen(),
     Center(child: Text("Saved Screen")),
     Center(child: Text("Money Screen")),
     Center(child: Text("Account Screen")),
